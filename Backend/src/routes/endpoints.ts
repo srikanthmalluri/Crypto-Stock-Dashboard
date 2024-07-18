@@ -18,6 +18,7 @@ router.get("/stocks",async (req,res)=>{
         res.status(200).json(stocks);
     }catch(err){
         logger.error("Something went wrong, Request :"+JSON.stringify(req.query))
+        res.status(500).json({ error: 'Something went wrong' });
     }
 })
 export default router;

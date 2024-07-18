@@ -30,4 +30,4 @@ setInterval(polling, 5000);
 
 app.listen(port, () => logger.info(`server is running on port: ${port}`))
 
-export { app };
+export default app ;

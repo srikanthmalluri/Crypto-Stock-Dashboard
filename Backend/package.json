@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node 'c:/Users/Kanna/Desktop/Real-time-stock/Backend/src/app.ts'"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -21,7 +20,7 @@
     "jest": "^29.7.0",
     "mongodb-memory-server": "^9.4.1",
     "supertest": "^7.0.0",
-    "ts-jest": "^29.2.2",
+    "ts-jest": "^29.2.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.3"
   },
